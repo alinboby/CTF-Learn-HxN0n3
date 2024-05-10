@@ -1,9 +1,9 @@
 # Cryptography
   Cryptography involves encrypting or decrypting a piece of data.
 
-  Encryption/decryption tools and libraries such as openssl.
-  Password cracking tools like John the Ripper and hashcat.
-  Encoding/decoding and analysis tool like CyberChef.
+    Encryption/decryption tools and libraries such as openssl.
+    Password cracking tools like John the Ripper and hashcat.
+    Encoding/decoding and analysis tool like CyberChef.
 
 ### Online Tools
 - [dCode](https://www.dcode.fr): **crypto heaven**
