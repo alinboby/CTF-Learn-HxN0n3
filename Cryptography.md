@@ -5,6 +5,41 @@
     Password cracking tools like John the Ripper and hashcat.
     Encoding/decoding and analysis tool like CyberChef.
 
+### Understand the Types of Crypto Challenges
+
+    Classical Ciphers:	Substitution, Caesar, Vigenère, etc.	ROT13, monoalphabetic
+    Modern Crypto:	RSA, AES, ECC, DES, etc.	RSA low exponent, AES ECB mode
+    Hashing / Encoding:	Hashes, Base64, etc.	MD5 collisions, decoding
+    Custom / Broken Crypto:	Poorly designed schemes	XOR-based schemes, homebrew encryption
+    Post-Quantum Crypto:	Lattice, code-based	NTRU, McEliece
+    Quantum Simulations:	BB84 protocol	Simulated QKD data
+    Stego/Crypto Hybrid:	Hidden data in files + crypto	Encrypted zip in image
+
+### Crypto Challenge Solving Strategy
+
+    Read the Challenge Description Carefully
+        Look for hints: key size, algorithm type, block size, unusual formats.
+        Identify any leaked keys, outputs, ciphertexts, plaintexts, etc.
+    
+    Identify the Algorithm or Technique
+        Is it classical (Vigenère, Caesar)?
+        Is it standard modern crypto (RSA, AES)?
+        Is it custom encryption (XOR, shifting)?
+    
+    Try Known Attacks or Tools
+        Known weakness? Use automated tools/scripts.
+        Custom scheme? Analyze logic, look for flawed assumptions.
+    
+    Write or Use a Script to Exploit the Weakness
+        Python is the go-to language (often with pwntools, pycryptodome, etc.).
+        Break math problems using SageMath or SymPy.
+    
+    Test and Debug Carefully
+        Ensure correct encoding (UTF-8 vs ASCII), padding (PKCS#7), etc.
+    
+    Get the Flag
+        Usually looks like flag{something_here}
+
 ### Online Tools
 - [dCode](https://www.dcode.fr): **crypto heaven**
 - [Cryptii](https://cryptii.com): A web application that provides a suite of tools for encryption, decryption, and encoding.
@@ -39,3 +74,6 @@
 - RSATool: A tool for recovering the RSA private key from a given public key.
 - XORTool: A tool for performing XOR encryption and decryption.
 - Keyboard Shift: A tool for performing keyboard shift ciphers.
+
+
+
