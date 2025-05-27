@@ -76,4 +76,23 @@
 - Keyboard Shift: A tool for performing keyboard shift ciphers.
 
 
+### Tips
 
+    RSA-Based Attacks
+        Low Exponent Attack (e = 3)
+        Common Modulus Attack
+        Hastad’s Broadcast Attack
+        Wiener’s Attack (for small private key d)
+    
+    AES Pitfalls
+        ECB Mode Detection
+        Known IV leaks
+        Padding Oracle Attacks
+    
+    XOR Crypto
+        If known plaintext is present: ciphertext XOR plaintext = key
+        Repeating key XOR can be brute-forced
+    
+    Hash Attacks
+        Collision or Pre-image for weak hashes like MD5/SHA1
+        Rainbow tables, dictionary attacks
