@@ -8,3 +8,9 @@
 | **Microsoft Log Parser**              | Command-line tool for querying log files using SQL syntax                 | Windows        | [microsoft.com](https://learn.microsoft.com/en-us/sysinternals/downloads/logparser)  |
 | **Windows Event Forwarding + Sysmon** | Forensic-grade log generation and analysis setup                          | Windows        | [github.com/Sysinternals/Sysmon](https://github.com/Sysinternals/Sysmon)             |
 | **QEVTXViewer**                       | Lightweight Qt-based viewer for EVTX logs (cross-platform)                | Windows, Linux | [github.com/hasherezade/qevtxviewer](https://github.com/hasherezade/qevtxviewer)     |
+
+
+### Important links for events
+=============================
+
+    https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor
