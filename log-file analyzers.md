@@ -1,0 +1,12 @@
+| Tool Name     | Purpose / Features                                                    | Supported OS                | URL                                                                                     |
+| ------------- | --------------------------------------------------------------------- | --------------------------- | --------------------------------------------------------------------------------------- |
+| **GoAccess**  | Real-time web log analyzer for Nginx/Apache (terminal & HTML reports) | Linux, macOS                | [goaccess.io](https://goaccess.io/)                                                     |
+| **Logwatch**  | System log analyzer and email-based daily reports for sysadmins       | Linux                       | [logwatch.sourceforge.net](https://sourceforge.net/projects/logwatch/)                  |
+| **AWStats**   | Web, streaming, mail log analyzer with visual reports                 | Windows, Linux              | [awstats.sourceforge.net](https://awstats.sourceforge.net/)                             |
+| **Pipal**     | Password/cracking log analyzer (also parses John, Hashcat outputs)    | Cross-platform (Perl)       | [github.com/digininja/pipal](https://github.com/digininja/pipal)                        |
+| **Logcheck**  | Monitors log files and sends security and anomaly reports             | Linux                       | [logcheck.org](https://salsa.debian.org/debian/logcheck)                                |
+| **Logstash**  | Part of the ELK stack; parses and transforms logs in real time        | Cross-platform (Java-based) | [elastic.co/logstash](https://www.elastic.co/logstash)                                  |
+| **lnav**      | Log file viewer with SQL-like querying and log merging capabilities   | Linux, macOS                | [lnav.org](https://lnav.org/)                                                           |
+| **Grok**      | Pattern-based log parser (used in ELK/Logstash setups)                | Cross-platform              | [github.com/logstash-plugins](https://github.com/logstash-plugins/logstash-filter-grok) |
+| **Fluentd**   | Unified logging layer and log processor                               | Linux, Windows, macOS       | [fluentd.org](https://www.fluentd.org/)                                                 |
+| **Chronolog** | Rotates Apache logs by timestamp                                      | Linux                       | [chronolog.org](http://chronolog.org/)                                                  |
